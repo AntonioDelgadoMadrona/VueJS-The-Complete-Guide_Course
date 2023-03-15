@@ -32,6 +32,7 @@ export default {
       activeTopic: null,
     };
   },
+  // The provide() method is used to provide data to all child components.
   provide() {
     return { 
       topics: this.topics,
